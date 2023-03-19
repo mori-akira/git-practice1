@@ -1,4 +1,4 @@
-name: workflow-practice1
+name: workflow-practice2
 on:
   push:
     branches: [main]
