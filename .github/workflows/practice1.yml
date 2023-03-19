@@ -3,11 +3,11 @@ on:
   push:
     branches: [main]
   
-  jobs:
-    job1:
-      runs-on: ubuntu-latest
-      steps:
-        - name: checks-out repository under $GITHUB_WORKSPACE
-          uses: actions/checkout@v2
-        - name: use echo command
-          run: echo "Hello workflow!!"
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checks-out repository under $GITHUB_WORKSPACE
+        uses: actions/checkout@v2
+      - name: use echo command
+        run: echo "Hello workflow!!"
